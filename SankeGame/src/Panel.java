@@ -307,7 +307,7 @@ public class Panel extends JPanel implements KeyListener, ActionListener {
             is = getClass().getClassLoader().getResourceAsStream("images/fail.png");
             fail = new ImageIcon(ImageIO.read(is));
 
-            is = getClass().getClassLoader().getResourceAsStream("images/begin.png");
+            is = getClass().getClassLoader().getResourceAsStream("images/victory.png");
             begin = new ImageIcon(ImageIO.read(is));
 
         } catch (IOException e) {
